@@ -1,0 +1,35 @@
+{
+  "name": "multiple-pages",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "build_dev": "vue-cli-service build --mode dev",
+    "build_staging": "vue-cli-service build --mode staging",    
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {   
+    "vue": "^2.6.11",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1",
+    "watchpack": "^1.7.5"
+  },
+  "devDependencies": {
+    "@vue/babel-preset-app": "^3.12.1",
+    "@vue/cli-plugin-babel": "^3.0.1",
+    "@vue/cli-plugin-eslint": "^3.0.1",
+    "@vue/cli-service": "^3.0.1",
+    "@vue/eslint-config-airbnb": "^4.0.0",
+    "@vue/eslint-config-prettier": "^3.0.1",
+    "babel-plugin-transform-imports": "^1.5.1",
+    "eslint-friendly-formatter": "^4.0.1",     
+    "eslint-plugin-html": "^4.0.1",
+    "eslint-plugin-vue-types": "0.2.0",
+    "html-webpack-plugin": "^4.5.2",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.1",
+    "svg-inline-loader": "^0.8.0",
+    "vue-template-compiler": "^2.5.17"   
+  }
+}
